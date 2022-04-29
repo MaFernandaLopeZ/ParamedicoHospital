@@ -38,17 +38,17 @@ include('header.php');
                                         <th style="padding-left:10px;">Llegada</th>
                                     </tr>
                                     <tr>
-                                        <td><input type="text" class="form-control" value=""></td>
-                                        <td style="padding-left:10px;"><input type="text" class="form-control"></td>
+                                        <td><input type="text" class="form-control" name="saida" value=""></td>
+                                        <td style="padding-left:10px;"><input type="text" name="llegada" class="form-control"></td>
                                     </tr>
                                 </table>
                                 <div class="mb-3">
                                     <label class="form-label" <th style="padding-top:10px;"><b>Ordeno</b></label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="ordeno">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label"><b>Ubicaci&oacute;n</b></label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="ubicacion">
                                 </div>
                             </section>
                             <hr>
@@ -57,7 +57,7 @@ include('header.php');
                                 <div class="card-header">
                                     <h4 class="text-center">Motivo de la atenci&oacute;n</h4>
                                 </div>
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select" aria-label="Default select example" name="motivo">
                                     <option selected>Select</option>
                                     <option value="Traumatismo">Traumatismo</option>
                                     <option value="Enfermedad">Enfermedad</option>
@@ -86,7 +86,7 @@ include('header.php');
                                     </table>
                                     <div class="mb-3">
                                         <label class="form-label"><b>Lugar</b></label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control" name="lugar">
                                     </div>
                                 </div>
                                 <div class="mb-3">
@@ -100,24 +100,24 @@ include('header.php');
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label"><b>Operador</b></label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="operador">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label"><b>T.M.U</b></label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control"  name="tmu">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label"><b>DR.</b></label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="dr" >
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label"><b>Camillero</b></label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name= "camillero" >
                                 </div>
                             </section>
                             <br>
                             <div class="input-group  mb-3 justify-content-center">
-                                <button class="btn btn-primary" type="submit" name="register">Continuar</button>
+                                <input class="btn btn-primary" type="submit" name="register" value="Continuar">
                             </div>
                         </form>
                     </div>
