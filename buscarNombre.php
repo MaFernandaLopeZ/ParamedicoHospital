@@ -1,8 +1,13 @@
 <!-- PAGINA PRINCIPAL PARA EL FORMULARIO DE PARAMEDICO -->
 <!-- UNICAMENTE REGISTRA SU NOMBRE Y FECHA DE NACIMIENTO PARA BUSCARLO EN LA BD -->
+
+
+
 <?php
     include('header.php');
 ?>
+
+
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -15,7 +20,7 @@
                             <h4 class="text-center">Datos PRE-HOSPITALARIO</h4>
                         </div>
                         <div class="card-body">
-                            <form action="antecedentes.php" method="post">
+                            <form action="antecedentes.php" method="POST">
                                 <div class="mb-3">
                                     <label class="form-label"><b>Nombre del Paciente</b></label>
                                     <input type="text" class="form-control" name="lugar" maxlength="10">
@@ -35,6 +40,7 @@
                                 </div>  
                             </form>
                         </div>
+                        
                     </div>
                 </div>
             </div>

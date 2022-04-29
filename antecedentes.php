@@ -19,7 +19,11 @@
                             <div class="card-body cuadro1">
                                 <details>
                                     <summary><b>Patologicos</b></summary>    
-                                    <p><b>Sarampión:</b>(no recuerda edad), sin complicaciones</p>
+                                    <p><b>Sarampión:</b>(no recuerda edad), sin complicaciones
+                                    Varicela:</b> a los 11 años, sin complicaciones.</p>
+                                    Varicela:</b> a los 11 años, sin complicaciones.
+                                    Varicela:</b> a los 11 años, sin complicaciones.
+                                    
                                     <p><b>Varicela:</b> a los 11 años, sin complicaciones.</p>
                                 </details>
                                 <hr>
@@ -93,7 +97,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label"><b>Direcci&oacute;n</b></label>
-                                    <textarea style="heigth:150px;resize: none;" class="form-control"></textarea>
+                                    <textarea style="height :150px;resize: none;" class="form-control"></textarea>
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label"><b>Dependencia</b></label>
