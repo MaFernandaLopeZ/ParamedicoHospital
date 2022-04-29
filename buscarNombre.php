@@ -21,7 +21,18 @@
                         </div>
                         <div class="card-body">
                             <form action="antecedentes.php" method="POST">
-                                
+                                <div class="mb-3">
+                                    <label class="form-label"><b>Nombre del Paciente</b></label>
+                                    <input type="text" class="form-control" name="lugar" maxlength="10">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label"><b>Fecha de Nacimiento</b></label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <!-- aqui va la consulta sql para recuperar el id del paciente mediante su nombre y fecha de nacimiento -->
+                                <!-- si existe en la bd, para antecentes -->
+
+                                <!-- si no existe, pasa directo al formulario pre-hospitalario -->
 
                                 
                                 <div class="input-group  mb-3 justify-content-center">
