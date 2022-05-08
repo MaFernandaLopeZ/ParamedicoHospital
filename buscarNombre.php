@@ -23,7 +23,7 @@
                             <form action="antecedentes.php" method="POST">
                                 <div class="mb-3">
                                     <label class="form-label"><b>Nombre del Paciente</b></label>
-                                    <input type="text" class="form-control" name="lugar" maxlength="10">
+                                    <input type="text" class="form-control" name="nomPaciente">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label"><b>Fecha de Nacimiento</b></label>
