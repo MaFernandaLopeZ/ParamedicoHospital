@@ -11,7 +11,7 @@
                     <div class="col-md-6">
                         <div class="card">
                             <div class="card-header">
-                                <h4 class="text-center">Historial</h4>
+                                <h4 class="text-center">Historial de Datos-Prehospitalarios</h4>
                             </div>
                             <div class="card-body cuadro1">
                                 <table class="table table-condensed">
