@@ -28,8 +28,8 @@ include('header.php');
                                         <th style="padding-left:10px;">Folio</th>
                                     </tr>
                                     <tr>
-                                        <td><input type="text" class="form-control" value=" <?php echo date("d/m/Y"); ?>" disabled></td>
-                                        <td style="padding-left:10px;"><input type="text" class="form-control"></td>
+                                        <td><input type="text" name="fechaPre" class="form-control" value=" <?php echo date("d/m/Y"); ?>" disabled></td>
+                                        <td style="padding-left:10px;"><input type="text" name="folioPre" class="form-control" value="automatico" disabled></td>
                                     </tr>
                                 </table>
                                 <table>
@@ -38,8 +38,8 @@ include('header.php');
                                         <th style="padding-left:10px;">Llegada</th>
                                     </tr>
                                     <tr>
-                                        <td><input type="text" class="form-control" name="saida" value=""></td>
-                                        <td style="padding-left:10px;"><input type="text" name="llegada" class="form-control"></td>
+                                        <td><input type="text" name="salidaPre" class="form-control"></td>
+                                        <td style="padding-left:10px;"><input type="text" name="llegadaPre" class="form-control"></td>
                                     </tr>
                                 </table>
                                 <div class="mb-3">
